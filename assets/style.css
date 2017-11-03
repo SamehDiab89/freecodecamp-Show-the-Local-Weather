@@ -1,0 +1,62 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    color: #fff;
+}
+
+body {
+	
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.weather-main {
+
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  z-index: 15;
+  top: 30%;
+  left: 50%;
+  margin: -100px 0 0 -180px;
+}
+
+#text1, #text2 {
+	font-size: 300%;
+}
+
+#text2 {
+	margin: 40px;
+}
+
+.local-weather {
+	margin-left: 50px;
+	font-size: 180%;
+}
+
+#time {
+	margin-left: 20px;
+	font-size: 180%;
+}
+
+.weather {
+	display: inline-block;
+	margin: 10px 15px;
+}
+
+#toggle_temp{
+	display: none;
+	font-size: 50%;
+	margin-left: 30px;
+	width: 200px;
+}
+
+
+#name {
+	margin: 30px 50px;
+}
